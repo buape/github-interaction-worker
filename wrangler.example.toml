@@ -1,9 +1,11 @@
 name = "github-interaction"
-type = "webpack"
 account_id = ""
 workers_dev = true
-route = ""
-zone_id = ""
-webpack_config = "webpack.config.js"
+main = "src/index.ts"
+compatibility_date = "2023-02-11"
 
-vars = { DEFAULT_REPO_OWNER = "", DEFAULT_REPO = "" }
+[vars]
+DEFAULT_REPO = ""
+DEFAULT_REPO_OWNER = ""
+DISCORD_PUBLIC_KEY = ""
+GITHUB_TOKEN = ""

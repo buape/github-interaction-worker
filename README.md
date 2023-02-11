@@ -5,7 +5,7 @@ Discord interaction for [cloudflare workers](https://developers.cloudflare.com/w
 ## Secrets
 
 - `GITHUB_TOKEN` GitHub access token to make queries with
-- `DISCORD_CLIENT_SECRET` [Discord Application](https://discord.com/developers/applications) public key
+- `DISCORD_PUBLIC_KEY` [Discord Application](https://discord.com/developers/applications) public key
 
 Use [`wrangler secret`](https://developers.cloudflare.com/workers/cli-wrangler/commands#secret) to modify secrets for your worker.
 
